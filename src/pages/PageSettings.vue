@@ -1,0 +1,11 @@
+<template padding>
+  <q-page>
+  <p>Settings page</p>
+  </q-page>
+</template>
+
+<script>
+export default {
+  
+}
+</script>
