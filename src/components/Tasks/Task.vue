@@ -11,11 +11,11 @@
 
     <q-item-section>
       <q-item-label :class="{ 'text-strike': task.completed }">
-        {{ task.name }} {{ id }}
+        {{ task.name }} 
       </q-item-label>
     </q-item-section>
 
-    <q-item-section side>
+    <q-item-section v-if="task.dueDate" side>
       <div class="row">
         <div class="row">
           <q-icon name="event" size="18px" class="q-me-xs" />
